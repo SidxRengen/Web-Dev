@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+webdevelopment
+</title>
+<script src="jq.js"></script>
+<style>
+   #q1, #q2{
+       width:200px;
+       padding:20px;
+       background-color: red;
+       color:white;
+       text-align: center;
+       font-family: arial;
+       cursor:pointer;
+       margin-bottom:3px;
+   }
+   #a1, #a2{
+       width:200px;
+       padding:20px;
+       background-color: yellow;
+          }
+</style>
+</head>
+<body>
+<h1> jquery </h1>
+<div id="q1"> html </div>
+<div id="a1">  
+    Stating that there is a “requirement to balance… security interests and integrity of the State… and the civil liberties of citizens” and taking into account the “clear stand” of the Centre, the Supreme Court Wednesday put on hold trial in all sedition cases pending before courts across the country until the government completes its promised exercise “to re-examine and re-consider the provisions of Section 124A of the Indian Penal Code” dealing with the offence of sedition.
+</div>
+
+<div id="q2"> css </div>
+<div id="a2">  
+    Stating that there is a “requirement to balance… security interests and integrity of the State… and the civil liberties of citizens” and taking into account the “clear stand” of the Centre, the Supreme Court Wednesday put on hold trial in all sedition cases pending before courts across the country until the government completes its promised exercise “to re-examine and re-consider the provisions of Section 124A of the Indian Penal Code” dealing with the offence of sedition.
+</div>
+
+<script>
+$(document).ready(function(){
+    $("#a1,#a2").hide()
+    $("#q1").click(function(){
+        $("#a1").slideToggle(1000)
+    })
+
+    $("#q2").click(function(){
+        $("#a2").slideToggle(1000)
+    })
+
+})
+</script>
+</body>
+</html>

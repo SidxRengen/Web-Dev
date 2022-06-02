@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body id="bg">
+<form>
+    <select id="color" onchange="Test()">
+        <option>red</option>
+        <option>green</option>
+        <option>yellow</option>
+        <option>cyan</option>
+        <option>violet</option>
+    </select>
+</form>
+
+<script>
+function Test(){
+var bgcolor=document.getElementById("color").value;
+document.getElementById("bg").style.background=bgcolor;
+}
+</script>   
+
+</body>
+</html>

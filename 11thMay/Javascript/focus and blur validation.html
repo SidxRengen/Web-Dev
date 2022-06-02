@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1 >javascript</h1>
+    
+<form >
+  <input type="text" name="fname" id="fname" 
+  placeholder="enter name here" onfocus="Test()" onblur="Test1()">
+  </form>
+
+<script>
+function Test(){
+document.getElementById("fname").style.background="yellow";
+}
+
+function Test1(){
+var fn=document.getElementById("fname").value;
+if(fn==""){
+    document.getElementById("fname").style.background="red";
+}else{
+    document.getElementById("fname").style.background="pink";
+}
+}
+</script>   
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+Welcome to Web Development Course
+
+myself
+	Sudhakar Reddy
+
+html==>Hyper Text Markup Language
+css==>Cascading Style Sheets
+bootstrap==>framework of css
+
+javascript==>used for creating dynamic, interactive and client side validations
+jquery=>library of javascript
+nodejs==>server side coding
+sql/database==>
+
+
+11april
+==========
+html5
+hyper text markup language
+
+html commands are called tags
+
+Tags are 2 types
+	1) opening tag
+		<title>
+	2) closing tag
+		</title>
+
+
+why to learn html code	
+	to create a webpage
+Where to write the html code / which software
+	text editors
+		notepad, notepad++, visual studeo code
+	browser
+		chrome, safari, internet edge
+
+saving:
+	.html
+
+
+<br/> ==>break
+<hr/> ==> horizontal row
+
+Headings:
+Headings are 6 types
+	<h1> </h1>
+	<h2> </h2>
+	.
+	.
+	<h6> </h6>
+
+Paragraph:
+	<p> </p>
+
+List items
+	List items are;
+	1) order list item
+		<ol> </ol>
+	2) unorder list item
+		<ul> </ul>
+
+Attributes:
+===============
+
+Attributes are extra features for a specific  tags
+Attributes has to be included inside opening tag only
+
+<body bgcolor="yellow">
+
+</body>
+
+=>bgcolor is an attribute of body tag
+
+Attributes for headings(h1 to h6)
+
+align="left/center/right"
+<h1 align="center"> </h1>
+
+
+Attributes for paragraph:
+align="left/center/right/justify"
+
+Attribures for hr tag
+<hr>
+color
+size
+width
+align
+
+12th April:
+==========
+
+Inserting images
+
+<img src="images/bird.jpg"/>
+Attributes for img tag:
+width/height
+border
+title
+
+
+
+Hyper links:
+=============
+<a href="fileName.html">Link</a>
+
+Tables:
+======
+
+<table> </table>
+<tr> </tr> ===>table row
+<td> </td> ===>table data
+
+
+Forms:
+=====
+<form> </form>
+<input type="text/password/checkbox/radio/submit/reset/email">
+
+<select>
+<option> </option>
+</select>
+
+<textarea> </textarea>
+=============================
+CSS3
+Cascading Style Sheets
+
+css can be applied to our html webpages in  3 ways:
+	1)internal css==>saved as html file only
+	2)external css==> saved as .css file
+	3)inline css ==> style only for one line code
+
+syntax of css code:
+	
+	selector{
+		property:value;
+		}
+
+	ex:
+	h1{
+		color:red;
+	}
+		
+
+properties list:
+================
+color:red;
+font-family:arial;
+font-size:16px;
+text-align:left/center/right/justify;
+
+border:1px solid red;
+width:300px;
+height:300px;
+
+margin:30px; ==> margin is a space out side of the element
+margin:0px 30px;
+
+text-decoration:none;
+background-color:yellow;
+
+Padding:30px; ==>padding is a space inside of the element
+padding:0px 30px;
+
+
+Border:1px solid/dashed/dotted red;
+Border-left/right/top/bottom:1px solid red;
+
+Background-image:url(pic.jpg)
+Background-repeat:no-repeat/repeat-x/repeat-y
+Background-position:top right / bottom right
+Background-size:cover
+
+
+SELECTORS:
+
+=>TAG/ELEMENT SELECTOR
+	h1{
+	}
+=>PSEUDO SELECTOR
+	tag:hover{
+		}
+	a:hover{
+		}
+
+
+Text-decoration:none;
+Cursor:pointer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
